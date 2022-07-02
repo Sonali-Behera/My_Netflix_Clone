@@ -4,6 +4,7 @@ import requests from "../../requests";
 import Banner from "../Banner";
 import Nav from "../Nav";
 import "./HomeScreen.css";
+import Footer from "../Footer";
 
 
 function HomeScreen() {
@@ -19,6 +20,7 @@ function HomeScreen() {
         <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
         <Row title="Romance" fetchUrl={requests.fetchRomanceMovies} />
         <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+        <Footer />
     </div>
   );
 }

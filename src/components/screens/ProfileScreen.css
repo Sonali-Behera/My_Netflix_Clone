@@ -25,7 +25,7 @@
 }
 
 .profileScreen_info > img{
-    height: 100px;
+    height: 108px;
 }
 
 .profileScreen_details {
@@ -44,7 +44,7 @@
 .profileScreen_signOut{
     padding: 10px 20px;
     font-size: 1rem;
-    margin-top: 5%;
+    margin-top: 0;
     color: #fff;
     background-color: #e50914;
     font-weight: 600;
@@ -54,9 +54,4 @@
 
 .profileScreen_plans{
     margin-top: 20px;
-}
-
-.profileScreen_plans > h3 {
-    border-radius: 1px solid #282c2d;
-    padding-bottom: 10px;
 }
